@@ -1,0 +1,4 @@
+<resources>
+    <string name="enable_usb_debugging_first">Сначала включите отладку по USB в настройках разработчика.</string>
+    <string name="shizuku_started">Shizuku начала…</string>
+</resources>

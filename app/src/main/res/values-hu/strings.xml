@@ -1,0 +1,4 @@
+<resources>
+    <string name="enable_usb_debugging_first">Először engedélyezze az USB hibakeresést a fejlesztői beállításoknál</string>
+    <string name="shizuku_started">Shizuku elindult…</string>
+</resources>

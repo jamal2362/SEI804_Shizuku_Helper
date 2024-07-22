@@ -1,0 +1,4 @@
+<resources>
+    <string name="enable_usb_debugging_first">Aktiviere zuerst USB-Debugging in den Entwickleroptionen</string>
+    <string name="shizuku_started">Shizuku gestartet…</string>
+</resources>

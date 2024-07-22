@@ -1,0 +1,4 @@
+<resources>
+    <string name="enable_usb_debugging_first">Спершу увімкніть налагодження по USB у параментах розробника</string>
+    <string name="shizuku_started">Запуск Shizuku…</string>
+</resources>
