@@ -83,13 +83,14 @@ class MainActivity : AccessibilityService() {
     private fun startShizukuCommand() {
         try {
             Thread.sleep(15000)
-            connection?.open("shell:sh /sdcard/Android/data/moe.shizuku.privileged.api/start.sh")
+            connection?.open("shell:cp /sdcard/Android/data/moe.shizuku.privileged.api/start.sh /sdcard/ShizukuHelper.sh")
+            Thread.sleep(12500)
+            connection?.open("shell:sh /sdcard/ShizukuHelper.sh; sleep 2.5; sh /sdcard/Android/data/moe.shizuku.privileged.api/start.sh")
 
             runOnUiThread {
                 Toast.makeText(baseContext, getString(R.string.shizuku_started), Toast.LENGTH_SHORT).show()
+                Log.d("TAG", getString(R.string.shizuku_started))
             }
-
-            Log.d("TAG", getString(R.string.shizuku_started))
         } catch (e: Exception) {
             e.printStackTrace()
         }
