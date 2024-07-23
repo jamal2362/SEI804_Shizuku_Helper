@@ -11,8 +11,8 @@ android {
         applicationId 'com.jamal2367.shizukuhelper'
         minSdk 30
         targetSdk 34
-        versionCode 10
-        versionName '1.0'
+        versionCode 20
+        versionName '2.0'
         resConfigs 'en', 'de', 'hu', 'ru', 'uk'
         setProperty('archivesBaseName', 'SEI804_Shizuku_Helper_' + versionName)
     }
